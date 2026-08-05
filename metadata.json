@@ -1,0 +1,6 @@
+{
+  "name": "Commander AI",
+  "description": "Autonomous AI CEO Multi-Agent Operating System & Reasoning Engine",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
