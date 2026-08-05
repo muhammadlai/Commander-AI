@@ -68,6 +68,12 @@ function CommanderMainApp() {
         return <CommanderView user={activeUser} />;
       case 'google-workspace':
         return <GoogleWorkspaceView />;
++      case 'github-workspace':
++        // Render the GitHub workspace view when selected from the sidebar
++        return <GitHubWorkspaceView />;
++      case 'repository-center':
++        // Render repository center (code health & repo browsing) when selected
++        return <RepositoryCenterView />;
       case 'tool-center':
         return <ToolCenterView />;
       case 'memory-center':
